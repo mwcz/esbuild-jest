@@ -7,7 +7,7 @@
   "typings": "esbuild-jest.d.ts",
   "scripts": {
     "postinstall": "yarn build",
-    "build": "ts-node ./tools/build.ts",
+    "build": "yarn ts-node ./tools/build.ts",
     "test": "jest --clearCache && jest --detectOpenHandles"
   },
   "repository": {
