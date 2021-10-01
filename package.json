@@ -58,5 +58,8 @@
     "presets": [
       "@babel/preset-typescript"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
